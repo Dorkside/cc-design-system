@@ -19,6 +19,6 @@
     "@divriots/dockit-core": "^0.9.1",
     "@divriots/dockit-vue": "^0.0.23",
     "@vue/test-utils": "^2.0.0-rc.17",
-    "prettier": "^2.3.2",
+    "prettier": "^2.3.2"
   }
 }
