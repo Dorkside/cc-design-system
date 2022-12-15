@@ -1,7 +1,9 @@
 <template>
-  <button :class="variant">
-    <slot></slot>
-  </button>
+  <div class="border-solid border-2 border-sky-500">
+    <button>
+      <slot></slot>
+    </button>
+  </div>
 </template>
 
 <script setup lang="ts">
