@@ -1,4 +1,3 @@
-import '~/theme/src/theme.scss';
 import Button from '~/button/src/Button.vue';
 
 export const primary = () => ({
