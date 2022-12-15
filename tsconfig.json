@@ -12,6 +12,9 @@
     "paths": {
       "~/*": [
         "*"
+      ],
+      "@divriots/tailwindcss/*": [
+        "*"
       ]
     }
   }
