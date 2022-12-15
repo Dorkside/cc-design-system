@@ -12,6 +12,7 @@ import '@divriots/dockit-vue/style.css';
 import '@divriots/dockit-core/css-showcases/dockit-css-showcases.define.js';
 import { DefaultLayout } from '@divriots/dockit-vue';
 import '~/theme/src/theme.scss';
+import '~/theme/src/base.scss';
 import logoSvg from './logo.svg?raw';
 // @ts-ignore
 import * as docContext from '~doc-context';
