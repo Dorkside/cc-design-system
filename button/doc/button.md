@@ -8,7 +8,7 @@ const buttonPlaygroundCode = '<Button variant="primary">Click me</Button>';
 
 ## Description
 
-Very simple button component
+<Description :of="Button"></Description>
 
 ## Props
 

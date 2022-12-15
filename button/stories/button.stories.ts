@@ -1,16 +1,28 @@
 import Button from '~/button/src/Button.vue';
 
-export const primary = () => ({
+const variants = [
+  'primary',
+  'secondary',
+  'accent',
+  'neutral',
+  'info',
+  'success',
+  'warning',
+  'error',
+];
+
+export const base = () => ({
   components: { Button },
-  template: `<Button variant="primary">Primary</Button>`,
+  template: variants
+    .map((variant) => `<Button variant="${variant}">${variant}</Button>`)
+    .join(''),
 });
 
-export const secondary = () => ({
+export const outline = () => ({
   components: { Button },
-  template: `<Button variant="secondary">Secondary</Button>`,
-});
-
-export const disabled = () => ({
-  components: { Button },
-  template: `<Button variant="disabled">Disabled</Button>`,
+  template: variants
+    .map(
+      (variant) => `<Button variant="${variant}" outline>${variant}</Button>`
+    )
+    .join(''),
 });
